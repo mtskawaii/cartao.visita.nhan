@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+    <title>Componente do cartão de visualização de estatísticas</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+        
+        body {
+            background-color: hsl(233, 47%, 7%);
+            margin-top: 100px;
+        }
+        
+        .borda {
+            width: 860px;
+            height: 400px;
+            background-color: hsl(244, 38%, 16%);
+            margin: 0 auto;
+            border-radius: 8px;
+        }
+        
+        .moca {
+            position: absolute;
+            margin: 0 auto;
+            width: 483px;
+            margin-top: 1px;
+            margin-left: 622px;
+            top: 100px;
+            border-radius: 8px;
+            filter: brightness(0.5) sepia(1)saturate(5) hue-rotate(260deg)
+        }
+        
+        .h1 {
+            font-family: 'Outfit', sans-serif;
+            position: absolute;
+            top: 130px;
+            font-size: 25pt;
+            left: 285px;
+            color: white;
+        }
+        
+        h2 {
+            font-family: 'Outfit', sans-serif;
+            position: absolute;
+            top: 240px;
+            font-size: 9pt;
+            left: 300px;
+            color: lightgray
+        }
+        
+        .p1 {
+            font-family: 'Outfit', sans-serif;
+            position: absolute;
+            top: 360px;
+            font-size: 15pt;
+            left: 300px;
+        }
+        
+        .p2 {
+            font-family: 'Outfit', sans-serif;
+            position: absolute;
+            top: 360px;
+            font-size: 15pt;
+            left: 410px;
+        }
+        
+        .p3 {
+            font-family: 'Outfit', sans-serif;
+            position: absolute;
+            top: 360px;
+            font-size: 15pt;
+            left: 520px;
+        }
+        
+        .comp {
+            font-size: 9pt;
+        }
+        
+        .temp {
+            font-size: 9pt;
+        }
+        
+        .que {
+            font-size: 9pt;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="borda border-radius"></div>
+
+    <img class="moca" src="\images\image-header-desktop.jpg" alt="moca">
+
+    <hgroup>
+
+
+        <h1 class="h1">Get <span style="color :violet;">insight</span> that help<br> your business grow.</h1>
+
+        <h2 class="h2">Discover the benefits of data analytics and make<br> better decisions regarding revenue, customer<br> experience, and overall efficiency.</h2>
+
+
+        <p class="p1"> <span style="color: white;">10K+</span><br><span class="comp" style="color: lightgray;">COMPANIES</span></p>
+        <p class="p2"> <span style="color: white;">314</span><br><span class="temp" style="color: lightgray;">TEMPLATES</span></p>
+        <p class="p3"> <span style="color: white;">12m+</span><br><span class="que" style="color: lightgray;">QUERIES</span></p>
+    </hgroup>
+
+</body>
+
+</html>
